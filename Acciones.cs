@@ -27,7 +27,7 @@ namespace Listas
             listaautomoviles.Add(new Automovil(a.Marca,a.Modelo,a.Año,a.NoPuertas,a.Color));
         }
         public void MostrarAutos()
-        {
+        { 
             foreach (var a in listaautomoviles)
             {
                 Console.WriteLine($"Marca: {a.Marca}");
